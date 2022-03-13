@@ -1210,6 +1210,16 @@ i.fa.fa-quote-left.quote_icon {
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+	.map{
+		width: 100%;
+		position:unset;
+	}
+	.contact_right_section {
+		margin-top: 30px;
+	}
+	.em_block{
+		padding: 30px 0px;
+	}
 	.custom-footer .center_block {
 		margin: 50px 0px !important;
 	}
