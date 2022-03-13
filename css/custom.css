@@ -773,7 +773,7 @@ section.top_contact .img_block, .em_block .img_block {
     font-weight: 600;
 }
 .social-group a {
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .social-group a {
     background: #ca1f25;
@@ -1210,6 +1210,24 @@ i.fa.fa-quote-left.quote_icon {
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+	.doc_img_content h6{
+		font-size: 20px;
+    	line-height: 22px;
+	}
+	.treatments iframe{
+		width: 100%;
+	}
+	.doc_img_content{
+		width: 100%;
+		height: 155px;
+	}
+	.doc_img_content p {
+		font-size: 14px;
+		line-height: 18px !important;
+	}
+	.contact_pg .em_block{
+		padding: 30px 15px;
+	}
 	.map{
 		width: 100%;
 		position:unset;
@@ -1239,7 +1257,7 @@ i.fa.fa-quote-left.quote_icon {
 	}
 	a.btn-banner{
 		font-size: 14px;
-		padding: 14px 60px 17px 25px;
+		padding: 14px 60px 14px 25px;
 	}
 	.doc_btn img{
 		width: 34px !important;
@@ -1260,8 +1278,8 @@ i.fa.fa-quote-left.quote_icon {
 		margin: 50px 0px;
 	}
 	.call h4{
-		font-size: 45px;
-		line-height: 45px;
+		font-size: 40px;
+    	line-height: 40px;
 	}
 	section.top_contact .img_block img, .em_block .img_block img{
 		width: 15px;
@@ -1504,7 +1522,7 @@ i.fa.fa-quote-left.quote_icon {
 	}
 	
 	.custom-footer .center_block {
-		margin: 50px 0px !important;
+		margin: 30px 0px !important;
 	}
 	section.scetion_contact {
 		padding-top: 0px !important;
@@ -1522,7 +1540,7 @@ i.fa.fa-quote-left.quote_icon {
 	}
 	a.btn-banner{
 		font-size: 14px;
-		padding: 14px 60px 17px 25px;
+		padding: 14px 60px 14px 25px;
 	}
 	.doc_btn img{
 		width: 34px !important;
