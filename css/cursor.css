@@ -33,22 +33,22 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    /* border: 10px solid #ca1f25; */
-    border: 10px solid #ca1f25;
+    /* border: 10px solid transparent; */
+    border: 10px solid transparent;
     transition: all 0.2s ease, top 0.18s ease-out, left 0.18s ease-out;
   }
   div[class*='kursor'].kursor--1 + .kursorChild {
     display: block;
     width: 4px;
     height: 4px;
-    background: #ca1f25;
+    background: transparent;
     border-radius: 50%;
     transition: all 0.2s ease, top 0s ease-out, left 0s ease-out;
   }
   div[class*='kursor'].kursor--1.--hover {
     width: 40px;
     height: 40px;
-    border: 10px solid #ca1f25;
+    border: 10px solid transparent;
     background: rgba(255, 255, 255, 0.1);
   }
   div[class*='kursor'].kursor--1.--hover + .kursorChild {
@@ -64,7 +64,7 @@
     opacity: 0;
     border: 1px solid;
     border-radius: 50%;
-    border: 10px solid #ca1f25;
+    border: 10px solid transparent;
     transition: all 0.4s ease;
   }
   div[class*='kursor'].kursor--2 {
@@ -73,24 +73,24 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #ca1f25;
+    background: transparent;
     transition: all 0.2s ease, top 0.1s ease-out, left 0.1s ease-out;
   }
   div[class*='kursor'].kursor--2 + .kursorChild {
     display: block;
     width: 4px;
     height: 4px;
-    background: #ca1f25;
+    background: transparent;
     border-radius: 50%;
     transition: all 0.2s ease, top 0.2s ease-out, left 0.2s ease-out;
   }
   div[class*='kursor'].kursor--2.--hover {
     width: 40px;
     height: 40px;
-    background: #ca1f25;
+    background: transparent;
   }
   div[class*='kursor'].kursor--2.--hover + .kursorChild {
-    background: #ca1f25;
+    background: transparent;
   }
   div[class*='kursor'].kursor--2.kursor--down {
     width: 10px;
@@ -102,7 +102,7 @@
     opacity: 0;
     border: 1px solid;
     border-radius: 50%;
-    border-color: #ca1f25;
+    border-color: transparent;
     transition: all 0.4s ease;
   }
   div[class*='kursor'].kursor--3 {
@@ -110,21 +110,21 @@
     top: 0px;
     width: 20px;
     height: 20px;
-    border: 1px solid #ca1f25;
+    border: 1px solid transparent;
     transition: all 0.2s ease, top 0.05s ease-out, left 0.05s ease-out;
   }
   div[class*='kursor'].kursor--3 + .kursorChild {
     display: block;
     width: 4px;
     height: 4px;
-    background: #ca1f25;
+    background: transparent;
     transition: all 0.2s ease, top 0.2s ease-out, left 0.2s ease-out;
   }
   div[class*='kursor'].kursor--3.--hover {
     width: 40px;
     height: 40px;
-    background: #ca1f25;
-    border: #ca1f25;
+    background: transparent;
+    border: transparent;
   }
   div[class*='kursor'].kursor--3.--hover + .kursorChild {
     background: #e1e1e1;
@@ -132,7 +132,7 @@
   div[class*='kursor'].kursor--3.kursor--down {
     width: 5px;
     height: 5px;
-    border: #ca1f25;
+    border: transparent;
   }
   div[class*='kursor'].kursor--3.kursor--down + .kursorChild {
     width: 10px;
@@ -143,7 +143,7 @@
     height: 40px !important;
     opacity: 0;
     border: 1px solid;
-    border-color: #ca1f25;
+    border-color: transparent;
     transition: all 0.4s ease;
   }
   div[class*='kursor'].kursor--4 {
@@ -151,7 +151,7 @@
     top: 0px;
     width: 50px;
     height: 50px;
-    border: 1px solid #ca1f25;
+    border: 1px solid transparent;
     border-radius: 50%;
     transition: all 0.2s ease, top 0.2s ease-out, left 0.2s ease-out;
   }
@@ -159,7 +159,7 @@
     display: block;
     width: 6px;
     height: 6px;
-    background: #ca1f25;
+    background: transparent;
     border-radius: 50%;
     transition: all 0.2s ease, top 0.03s ease-out, left 0.03s ease-out;
   }
@@ -188,7 +188,7 @@
     opacity: 0;
     border-radius: 50%;
     border: 1px solid;
-    border-color: #ca1f25;
+    border-color: transparent;
     transition: all 0.4s ease;
   }
   div[class*='kursor'].kursor--5 {
