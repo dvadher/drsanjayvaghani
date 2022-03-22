@@ -758,9 +758,10 @@ section.top_contact .img_block, .em_block .img_block {
     width: 16px
 }
 .contact_footer, .contact_footer p, .contact_footer a {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 22px;
 	color:#121212 !important;
+	font-weight: 500;
 }
 .footer_flex-content h5, .footer_heading h5{
 	color:#121212 !important;
