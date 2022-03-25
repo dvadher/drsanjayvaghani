@@ -817,12 +817,12 @@ section.achivement .section_heading h2::first-letter {
 .static_col .right_content {
     background-image: url(../images/BG_achi.png);
     height: 100%;
-    background-position: top;
+    background-position: left;
     position: absolute;
     height: 100%;
     width: 35%;
     right: 0px;
-    background-size: cover;
+	background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .ac_block p {
