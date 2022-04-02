@@ -1337,6 +1337,19 @@ img.view_img {
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+	.hepline_fix img {
+		width: 20px;
+	}
+	.hepline_fix a{
+		font-size: 10px !important;
+		line-height: 13px;
+	}
+	.hepline_fix{
+		width: 100px;
+    height: 100px;
+		bottom: 24%;
+		right: 0;
+	}
 	.dept_block img {
 		width: 50% !important;
 	}
@@ -1542,7 +1555,8 @@ img.view_img {
 	}
 	.social-group {
 		justify-content: start;
-   		 margin-top: 10px;
+   		margin-top: 10px;
+		margin-bottom: 30px;
 	}
 	input,
 	textarea {
