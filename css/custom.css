@@ -762,6 +762,7 @@ section.top_contact .img_block, .em_block .img_block {
     line-height: 22px;
 	color:#121212 !important;
 	font-weight: 500;
+	width: fit-content;
 }
 .footer_flex-content h5, .footer_heading h5{
 	color:#121212 !important;
@@ -1299,6 +1300,39 @@ img.view_img {
 .owl-item.active.center img {
     filter: unset;
     opacity: 1;
+}
+.hepline_fix {
+    background: #fff;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9999;
+    text-align: center;
+    box-shadow: 0 0 0 4px hsl(0deg 0% 100% / 61%);
+    background-image: url(../images/rounded.png);
+    background-size: cover;
+}
+.hepline_fix img {
+    width: 43px;
+}
+.hepline_fix a {
+    line-height: 16px;
+    position: relative;
+    top: 7px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.sep-line {
+    position: relative;
+    top: -2px;
+    font-size: 15px;
+    opacity: 0.7;
 }
 /*=================================== media query css ===================================*/
 

@@ -72,7 +72,7 @@ $(document).ready(function() {
 	var btn = $('#button');
 
 	$(window).scroll(function() {
-		if ($(window).scrollTop() > 500) {
+		if ($(window).scrollTop() > 1000) {
 			btn.addClass('show');
 		} else {
 			btn.removeClass('show');
@@ -83,7 +83,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		$('html, body').animate({
 			scrollTop: 0
-		}, '500');
+		}, '1000');
 	});
 	/*====================== js for scrollTop ====================== */
 

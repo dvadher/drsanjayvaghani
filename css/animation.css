@@ -103,14 +103,15 @@ data-aos="flip-left" */
   width: 50px;
   height: 50px;
   text-align: center;
-  position: fixed;
-  bottom: 100px;
-  right: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
   transition: background-color .3s, 
   opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
+  transform: translate(-50%, -0%);
 }
 #button::after {
   content: "\f077";
