@@ -254,12 +254,12 @@ ul.check-list li {
 h1,
 h1 span {
 	font-family: 'TT Commons';
-	font-size: 59px;
-	line-height: 70px;
-	font-weight: 600;
-	position: relative;
-	text-transform: uppercase;
-	color:#255ed6;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    color: #255ed6;
 }
 
 h2,
@@ -521,6 +521,7 @@ section.top_banner {
 }
 section.top_banner p {
     font-weight: 600;
+	font-size: 18px;
 }
 section.top_banner .block_content{
 	margin-bottom: 100px;
@@ -602,7 +603,7 @@ a.btn-banner {
 	font-weight: 400;
     line-height: 24px;
 }
-.section_heading:before {
+/* .section_heading:before {
     content: "";
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAAAGBAMAAABN3793AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAABtQTFRFAAAAxBoiyx4kyx8lyx8lyh4lyx8kyx4lyx8lgJzFTgAAAAl0Uk5TAB66+f+7v/P6ACH+wQAAADdJREFUeJxjYCAeMCq7wICRADIPDQAlWZG4CSg8NJDAwI7EM0DhoQEDUkxlDIZzWgWQeWigVQAALV4zpTvZ/jQAAAAASUVORK5CYII=) repeat 0 0;
     position: absolute;
@@ -610,7 +611,7 @@ a.btn-banner {
     background-size: cover;
     width: 82px;
     height: 5px;
-}
+} */
 .section_heading {
     margin-bottom: 30px;
 	position: relative;
@@ -698,8 +699,13 @@ section.top_contact .img_block, .em_block .img_block {
     font-size: 18px;
 }
 .section_heading h2 {
-    padding-bottom: 25px;
-    margin-bottom: 35px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+.section_heading.center_heading img.heading-line {
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 14% !important;
 }
 .footer-logo{
 	width:300px;
@@ -1197,7 +1203,7 @@ i.fa.fa-quote-left.quote_icon {
     background-size: cover;
     background-position: top;
 }
-.video_gallery .add-center-panel {
+.video_gallery .add-center-panel, .wall-block {
     background: #fff;
     box-shadow: 0 2px 20px rgb(0 0 0 / 8%);
     border-radius: 15px;
@@ -1425,6 +1431,38 @@ section.team.section-spacer p {
       transform: rotate(359deg);
     }
   }
+  .footer-copyright{
+	margin-bottom: 20px;
+  }
+  .wall-of-block img{
+	  width: 100%;
+  }
+  .wall-of-block {
+    background: #fff;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 8%);
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+}
+img.heading-line {
+	width: 23% !important;
+    object-fit: contain;
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+}
+.wall-block{
+	height:100%;
+}
+section.wall-of .left-block img, section.wall-of .right-b	lock img {
+	height: 350px;
+    object-fit: fill;
+}
+.wall-block.center-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
